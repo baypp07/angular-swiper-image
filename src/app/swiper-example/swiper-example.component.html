@@ -1,19 +1,36 @@
-<swiper
-  [slidesPerView]="4"
-  [spaceBetween]="30"
-  [centeredSlides]="true"
-  [pagination]="{
+<swiper [slidesPerView]="4" [spaceBetween]="30" [centeredSlides]="true" [pagination]="{
       clickable: true
-    }"
-  class="mySwiper"
->
-  <ng-template swiperSlide>Slide 1</ng-template
-  ><ng-template swiperSlide>Slide 2</ng-template
-  ><ng-template swiperSlide>Slide 3</ng-template
-  ><ng-template swiperSlide>Slide 4</ng-template
-  ><ng-template swiperSlide>Slide 5</ng-template
-  ><ng-template swiperSlide>Slide 6</ng-template
-  ><ng-template swiperSlide>Slide 7</ng-template
-  ><ng-template swiperSlide>Slide 8</ng-template
-  ><ng-template swiperSlide>Slide 9</ng-template> </swiper
->`,
+    }" class="mySwiper">
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+    <h1> title 1</h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    <h1> title 2</h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    <h1> title 3 </h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    <h1> title 4</h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+    <h1> title 5</h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+    <h1> title 6</h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+    <h1> title 7</h1>
+  </ng-template>
+  <ng-template swiperSlide class="swiper-Container">
+    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+    <h1> title 8</h1>
+  </ng-template>
+</swiper>`,
